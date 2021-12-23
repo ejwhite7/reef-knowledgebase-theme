@@ -45,15 +45,8 @@
     <footer class="site-footer">
       <div class="container">
         <div class="copyright">
-          <p>&copy; {{date format="YYYY"}} {{@site.title}}. {{t "Published with"}} <a href="https://ghost.org?lmref=5tLgCA" target="_blank" rel="noopener" class="published-by">Ghost</a>.</p>
+          <p>&copy; {{date format="YYYY"}} {{@site.title}}.</p>
         </div>
-
-        <nav class="social-links">
-          <ul>
-            {{#if @site.facebook}}<li class="social-link"><a href="{{facebook_url @site.facebook}}"><i class="fab fa-facebook"></i></a></li>{{/if}}
-            {{#if @site.twitter}}<li class="social-link"><a href="{{twitter_url @site.twitter}}"><i class="fab fa-twitter"></i></a></li>{{/if}}
-          </ul>
-        </nav>
       </div>
     </footer>
 
