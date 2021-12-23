@@ -5,15 +5,19 @@ routes:
   /growing/:
     controller: channel
     filter: tag:[Germination,Seedling,Vegetation,Flowering,Drying,Curing]
+    template: channel
   /app/:
     controller: channel
     filter: tag:[app]
+    template: channel
   /faqs/:
     controller: channel
     filter: tag:[General]
+    template: channel
   /hardware/:
     controller: channel
     filter: tag:[Hardware]
+    template: channel
 
 collections:
   /:
