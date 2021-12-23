@@ -10,7 +10,7 @@ routes:
   /app/:
     controller: channel
       template: index
-    filter: tag:[App]
+    filter: tag:[app]
     
   /faqs/:
     controller: channel
