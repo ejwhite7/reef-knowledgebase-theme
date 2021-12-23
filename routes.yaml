@@ -6,17 +6,14 @@ routes:
     controller: channel
       template: index
     filter: tag:[Germination,Seedling,Vegetation,Flowering,Drying,Curing]
-    
   /app/:
     controller: channel
       template: index
     filter: tag:[app]
-    
   /faqs/:
     controller: channel
        template: index
     filter: tag:[General]
-   
   /hardware/:
     controller: channel
       template: index
