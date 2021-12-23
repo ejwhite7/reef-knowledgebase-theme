@@ -4,19 +4,19 @@ routes:
   /account/: members/account
   /growing/:
     controller: channel
-    filter: tag:[germination,seedling,vegetation,flowering,drying,curing]
+    filter: tag:[Germination,Seedling,Vegetation,Flowering,Drying,Curing]
     template: index
   /app/:
     controller: channel
-    filter: tag:[app]
+    filter: tag:[App]
     template: index
   /faqs/:
     controller: channel
-    filter: tag:[general]
+    filter: tag:[General]
     template: index
   /hardware/:
     controller: channel
-    filter: tag:[hardware]
+    filter: tag:[Hardware]
     template: index
 
 collections:
