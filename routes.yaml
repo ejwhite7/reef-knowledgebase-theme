@@ -7,13 +7,13 @@ routes:
     filter: tag:[germination,seedling,vegetation,flowering,drying,curing]
   /app/:
     controller: channel
-    filter: tag:[app]
+    filter: tag:app
   /faqs/:
     controller: channel
-    filter: tag:[general]
-  /hardward/:
+    filter: tag:general
+  /hardware/:
     controller: channel
-    filter: tag:[hardward]
+    filter: tag:hardware
 
 collections:
   /:
