@@ -42,7 +42,7 @@
   "devDependencies": {
     "beeper": "^2.0.0",
     "concat": "^1.0.3",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-clean-css": "^4.0.0",
     "gulp-concat": "^2.6.1",

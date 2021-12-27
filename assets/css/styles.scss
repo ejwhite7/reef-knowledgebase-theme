@@ -30,14 +30,14 @@ $fa-font-path:"../fonts" !default;
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/v4-shims";
 @import "../../node_modules/normalize.css/normalize.css";
 @import "../../node_modules/animate.css/animate.css";
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Source+Sans+Pro:ital,wght@0,300;0,700;1,300&display=swap');
 
 /* ========================================
 1. Variables & Mixins
 ========================================= */
-$font-primary: 'Nunito Sans',
+$font-primary: 'Source Sans Pro',
 sans-serif;
-$font-secondary: system-ui,
+$font-secondary: 'Source Sans Pro',
 -apple-system,
 "Helvetica Neue",
 Helvetica,
@@ -48,7 +48,7 @@ $tablet-landscape: 1024px;
 $tablet: 768px;
 $phone: 420px;
 
-$bg-light: #fafafa;
+$bg-light: #F8F8F6;
 
 @import "prism";
 
@@ -178,6 +178,10 @@ body {
   @include ipad-landscape {
     padding: 0 15px;
   }
+}
+
+h1 {
+  font-family: 'PT Serif';
 }
 
 h1,
